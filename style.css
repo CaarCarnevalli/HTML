@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-color: #fdfdf7;
     font-family: Arial, sans-serif;
+    
 }
 
 header {
@@ -54,4 +55,38 @@ footer {
     background-color: #333;
     color: white;
    
+}
+p2 {
+
+    font-size: 30px;
+    text-align: center;    
+
+}
+
+.center{
+    text-align: center;
+}
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/R.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.fundo1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/amendoeira-em-flor-cke.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.botao {
+    text-decoration: none;
+    background-color: #f5e610;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px;
+    border-radius: 5px;
 }
