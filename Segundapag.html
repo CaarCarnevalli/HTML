@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Van Gogh</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./js/script.js">
+
 </head>
 <body class="fundo">
  <section>
@@ -38,5 +40,33 @@
 <nav class="botão"> 
     <a href="Index3.html">Voltar para página inicial</a>
 </nav>
+<section class="contato">
+<h2 class="center"> Entre em contato comigo:</h2>
+
+<div class="container mb-50">
+    <div>
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+           <div id="txtNome"></div>
+            <br>
+            <br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id="txtEmail"></div>
+            <br>
+            <br>
+            <label for="assunto">Assunto</label><br>
+            <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+        </form>
+    </div>
+</section>
+</div>
+<script src="js/script.js"></script>
+
+
     </body>
 </html>
